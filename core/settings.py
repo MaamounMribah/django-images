@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django-images-database',
         'HOST': 'django-images-server.postgres.database.azure.com',
-        'USER': 'yvlcmfeefk$',
+        'USER': 'yvlcmfeefk',
         'PASSWORD': 'XT83U60AD33143CP$',
         'OPTIONS': {'sslmode': 'require'},
     }
