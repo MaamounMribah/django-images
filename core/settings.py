@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('django-images-database'),
-        'HOST': os.environ.get('django-images-server'),
-        'USER': os.environ.get('yvlcmfeefk'),
-        'PASSWORD': os.environ.get('XT83U60AD33143CP'),
+        'NAME': 'django-images-database',
+        'HOST': 'django-images-server',
+        'USER': 'yvlcmfeefk',
+        'PASSWORD': 'XT83U60AD33143CP',
         'OPTIONS': {'sslmode': 'require'},
     }
 }
