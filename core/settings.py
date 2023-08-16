@@ -90,8 +90,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django-images-database',
         'HOST': 'django-images-server.postgres.database.azure.com',
-        'USER': 'yvlcmfeefk',
-        'PASSWORD': 'XT83U60AD33143CP',
+        'USER': 'maamoun.mribah@eniso.u-sousse.tn',
+        'PASSWORD': '29618730Ab#',
         'OPTIONS': {'sslmode': 'require'},
     }
 }
